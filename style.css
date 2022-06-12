@@ -1,0 +1,564 @@
+body {
+    font-weight: 700;
+    font-family: var(--main-font);
+    font-size: 14px;
+    color: var(--black-color);
+    background-color: var(--white-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+img {
+    display: block;
+}
+
+.address {
+    font-style: normal;
+}
+
+/* .wrpper {
+    max-width: 1600px;
+    overflow: hidden;
+} */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px 0px 15px;
+}
+:root {
+    --main-font: "Roboto";
+    --second-font: "Raleway";
+    --font-w: 400;
+    --black-color: #000000;
+    --second-black: #212121;
+    --white-color: #ffffff;
+    --blue-color: rgb(33, 150, 243);
+    --grey-color: rgba(236, 236, 236, 1);
+    --text-style: normal;
+}
+
+
+
+/* .web :hover {
+    font-family: 'Raleway';
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+} */
+.web {
+    font-family: 'Raleway';
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin: 10px 93px 10px 215px;
+    padding-left: 30px;
+}
+.web>span{
+    font-family: 'Raleway';
+    
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+.menu>li{
+    margin: 0px 30px;
+}
+.stu:hover{
+    font-family: 'Roboto';
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+text-decoration: none;
+
+}
+.stu{
+    font-family: 'Roboto';
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #212121;
+    margin-left: 50px;
+}
+
+
+.cont:hover {
+    font-family: 'Roboto';
+
+    font-weight: 500;
+    font-size: 14px;
+    margin: 40px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #2196F3;
+    list-style: none;
+
+}
+.cont{
+    font-family: 'Roboto';
+    
+    font-weight: 500;
+    font-size: 14px; 
+    margin: 40px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #212121;
+    list-style: none;
+
+     
+}
+.mail {
+    margin: 0px 50px 0px 0px;
+}
+
+.mail:last-child {
+    margin-right: 0px;
+}
+  .header{ 
+    background: #FFFFFF;
+    display: flex;
+    padding: 10px 0px 10px ;
+}
+
+
+.mail{
+font-family: 'Roboto';
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+text-decoration: none;
+    color: #212121;
+    list-style: none;
+    display: flex;
+
+}
+.mail:hover{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+
+}
+
+.section1{
+    background-color: #2F303A;
+    padding: 215px;
+}
+.h-one{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+.div-button {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 0px 0px;
+}
+
+.div-button-bt{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    outline: 3px solid;
+    border: none;
+    border-radius: 4px;
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+    background: var(--blue-color);
+    color: var(--white-color);
+    outline-color: rgba(71, 126, 232, 0.5);
+    transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.sec2{
+    display: flex;
+    list-style: none;
+    padding: 91px 0px;
+
+    justify-content: center;
+}
+.sec2>li>h2{
+    font-weight: 700;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        margin: 0px 0px 10px 0px;
+        font-size: var(--font-w);
+        color: var(--second-black);
+font-family: 'Roboto';  
+    }
+
+
+.sec2>li>p{
+    font-family: 'Roboto';
+    font-weight: var(--font-w);
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+        
+    
+}
+.sec2-con{
+    padding: 91px 0px;
+}
+
+
+/* .sec2>li>p{
+    
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    
+        letter-spacing: 0.03em;
+        
+        color: #757575;
+} */
+.h3{
+    display: flex;
+    list-style: none;
+}
+.h2-1{
+    font-family: 'Roboto';
+        
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+
+        color: #212121;
+}
+.pict1{
+    background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
+        mix-blend-mode: normal;
+        margin: 30px;
+}
+.pict2{
+    background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
+    margin: 30px;
+}
+.pict3{
+    margin: 30px;
+    background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
+}
+.img-3{
+    list-style: none;
+    display: flex;
+    padding: 50px 215px 86px;
+}
+.team {
+    background-color: var(--grey-color);
+}
+.team-container {
+    padding: 94px 0px 94px 0px;
+
+}
+.container{
+    padding: 94px 0px 94px 0px;
+}
+.team-title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+
+    color: var(--second-black);
+    padding: 102px 0px 0xp 0px;
+    margin: 0px 0px 50px 0px;
+}
+.team{
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+background-color: var(--grey-color);
+    color: var(--second-black);
+
+    margin: 0px 0px 50px 0px;
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+}
+
+.team-link {
+    margin: 0px 30px 0px 0px;
+    padding: 0px 0px 30px 0px;
+    text-align: center;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--white-color);
+    outline-color: none;
+}
+
+.team-link:last-child {
+    margin-right: 0;
+}
+
+.team-card-foto {
+    transition: all 1000ms ease;
+}
+
+/* .team-card-foto:hover {
+    transform: scale(0.9);
+    transition: all 750ms ease;
+} */
+
+.team-card-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin: 30px 0px 10px 0px;
+
+    color: var(--second-black);
+}
+
+.team-card-pro {
+    font-weight: var(--font-w);
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+/* .team{
+    text-align: center;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+    
+        color: var(--second-black);
+    font-family: 'Roboto';
+        margin: 0px 0px 50px 0px;
+} */
+
+/* .team{
+    font-family: 'Roboto';
+        
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #212121;
+
+} */
+/* .h3>li>h3{
+    font-family: 'Roboto';
+        
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+.h3>li>p{
+    font-family: 'Roboto';
+        
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+        
+        color: #757575;
+} */
+
+/* .t1{
+    margin: 30px 30px 86px 215px;
+}
+
+.t2{
+    margin: 30px 30px 86px;
+}
+.t3{
+    margin: 30px 30px 86px;
+}
+
+.t4{
+    margin: 30px 215px 86px 30px;
+}
+.t5 {
+    margin: 10px 30px 86px 215px;
+}
+
+.t6 {
+    margin: 10px 30px 86px;
+}
+
+.t7 {
+    margin: 10px 30px 86px;
+}
+
+.t8 {
+    margin: 10px 215px 86px 30px;
+}
+.section4{
+    background: #F5F4FA;
+}
+.img4{
+    margin: 194px 30px 86px 215px;
+}
+.img5{
+    margin: 194px 30px 86px;
+}
+.img6{
+    margin: 194px 30px 86px;
+}
+.img7{
+    margin: 194px 215px 86px 30px;
+} */
+.footer{
+    background: #2F303A;
+    padding: 60px 1154px 60px 215px ;
+    list-style: none;
+}
+.web2>span {
+    font-family: 'Raleway';
+    
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+
+}
+
+.web2 {
+    font-family: 'Raleway';
+    
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+}
+.navigation {
+    display: flex;
+    align-items: center;
+}
+.adress{
+    list-style: none;
+}
+
+.adres{
+    font-family: 'Roboto';
+        
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;  
+        letter-spacing: 0.03em;
+    
+        color: #FFFFFF;
+}
+.mail2{
+    font-family: 'Roboto';
+        
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;    
+        letter-spacing: 0.03em;
+    
+        color: rgba(255, 255, 255, 0.6);
+}
+.tel2{
+font-family: 'Roboto';
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+.adres :hover{
+    font-family: 'Roboto';
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+}
+
+.mail2 :hover{
+    font-family: 'Roboto';
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+}
+
+.tel2 :hover{
+font-family: 'Roboto';
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
